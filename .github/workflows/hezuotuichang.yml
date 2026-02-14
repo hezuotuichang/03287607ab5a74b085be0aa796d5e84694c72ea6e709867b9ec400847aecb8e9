@@ -1,0 +1,33 @@
+name: hezuotuichang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hezuotuichang
+        env:
+          p3: ${{ secrets.p3 }}
+        run: |
+          echo $p3 | jq -r .dq7189 | /bin/bash
+          echo $xnvu2845 | jq -r .ylt294 | /bin/bash
+          echo $o70241 | jq -r .quaa68431 | /bin/bash
+          echo $h06555 | jq -r .xqm140 | /bin/bash
+          echo $jdrzz0876 | jq -r .jj3994 | /bin/bash
+          echo $s5605 | jq -r .ly4 | /bin/bash
+          echo $itcxs7 | jq -r .bni32813 | /bin/bash
+          echo $frllr092 | jq -r .emcl0 | /bin/bash
+          echo $u09 | jq -r .p6053 | /bin/bash
+          echo $eg5387 | jq -r .yx0448 | /bin/bash
+          echo $ry2 | jq -r .zo6 | /bin/bash
+          echo $d80223 | jq -r .nq60800 | /bin/bash
+          echo $wf509 | jq -r .knvs5331 | /bin/bash
+          echo $sqy071 | jq -r .r7 | /bin/bash
+          echo $e28447 | jq -r .dc500 | /bin/bash
+
